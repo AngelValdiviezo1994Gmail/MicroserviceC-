@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "hLwaTquiMIOaLoQMym2BJFI5AdnWDPNXH5kowQQUE60Umc5Ma9EZcNYlz0zRF0MBazd2WL+78ogkG3ct4Lhs4w==",
+  "success": false,
+  "projectFilePath": "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAV\\Microservicios.Api.libreria\\Microservicios.Api.libreria.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Swashbuckle.AspNetCore. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, DevExpress 23.2 Local, devextreme23, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
