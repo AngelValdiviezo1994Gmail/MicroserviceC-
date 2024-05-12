@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Domain\Common.Domain.csproj" />
+    <ProjectReference Include="..\Module.Cliente.Application\Module.Cliente.Application.csproj" />
+    <ProjectReference Include="..\Module.Cliente.Dommain\Module.Cliente.Dommain.csproj" />
+    <ProjectReference Include="..\Module.Security.Infrastructure\Module.Security.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

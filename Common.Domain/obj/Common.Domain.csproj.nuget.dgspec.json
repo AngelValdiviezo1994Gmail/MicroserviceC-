@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAV\\Common.Domain\\Common.Domain.csproj": {}
+    "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAngel\\MicroserviceC-\\Common.Domain\\Common.Domain.csproj": {}
   },
   "projects": {
-    "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAV\\Common.Domain\\Common.Domain.csproj": {
+    "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAngel\\MicroserviceC-\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAV\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAngel\\MicroserviceC-\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAV\\Common.Domain\\Common.Domain.csproj",
+        "projectPath": "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAngel\\MicroserviceC-\\Common.Domain\\Common.Domain.csproj",
         "packagesPath": "C:\\Users\\Angel Valdiviezo\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAV\\Common.Domain\\obj\\",
+        "outputPath": "C:\\ProyectosAngel\\Krugger\\Microservicios\\MicroservicesFinTechBankAngel\\MicroserviceC-\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -52,6 +52,36 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
